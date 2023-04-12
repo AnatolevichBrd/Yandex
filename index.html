@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="icon" href="img/icon/favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+	<title>Yandex</title>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-body">
+				<div class="product-column">
+					<a href="#" class="product-column__logo logo">
+						<svg class="logo-link__img" width="51" height="24" viewBox="0 0 51 24" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M6.5929 12.973V21.0349H8.4116V0H5.68354C2.95549 0 0.682115 2.22392 0.682115 6.57914C0.682115 9.72977 1.66721 11.3977 3.18293 12.3244L0 20.9422H2.12189L5.07738 12.8804H6.5929V12.973ZM6.5929 11.1198H5.6078C4.01633 11.1198 2.65231 10.0079 2.65231 6.67201C2.65231 3.15088 4.09208 1.94605 5.6078 1.94605H6.5929V11.1198ZM26.9777 19.1814H25.9927V6.20865H20.3849V7.50585C20.3849 11.3977 20.2334 16.031 19.1723 19.1814H18.4145V24H20.0817V21.0349H25.2348V23.9074H26.902C26.9777 23.9074 26.9777 19.1814 26.9777 19.1814ZM35.0862 20.0155L34.6315 18.255C34.1768 18.6257 33.3432 19.2743 32.2824 19.2743C30.7668 19.2743 30.009 17.5137 30.009 14.1779H35.0862V12.8807C35.0862 7.87684 33.7979 6.0234 31.7519 6.0234C29.1754 6.0234 28.1145 9.4519 28.1145 14.2705C28.1145 18.8109 29.6301 21.2204 32.1309 21.2204C33.3432 21.2201 34.3283 20.7567 35.0862 20.0155ZM15.4592 6.20865V12.5099H12.6554V6.20865H10.8365V21.0349H12.7309V14.3631H15.5347V21.0349H17.3534V6.20865H15.4592ZM42.0578 21.0349H44.1039L40.6938 13.1583L43.725 6.2084H41.8305L38.951 13.0656V6.20865H37.0566V21.0349H38.951V13.6216L42.0578 21.0349ZM48.4992 21.2201C49.636 21.2201 50.3936 20.7567 51 20.1081L50.5453 18.4402C50.0907 18.9036 49.4085 19.3669 48.4992 19.3669C46.9837 19.3669 46.3016 17.2356 46.3016 13.529C46.3016 9.82239 47.2867 7.96921 48.5749 7.96921C49.3328 7.96921 50.0905 8.43257 50.5451 8.98855L50.7726 6.85725C50.2421 6.48651 49.6358 6.11603 48.5749 6.11603C45.7711 6.11603 44.2554 9.08117 44.2554 13.7145C44.3312 18.7183 45.9226 21.2201 48.4992 21.2201ZM24.1737 19.1814H20.991C21.9761 16.0308 22.1278 11.4903 22.1278 8.3397V8.06158H24.2497V19.1812L24.1737 19.1814ZM31.7517 7.87659C32.8126 7.87659 33.1915 9.72977 33.1915 12.2318H30.0845C30.1605 9.63715 30.6151 7.87659 31.7517 7.87659Z"
+								fill="" />
+						</svg>
+					</a>
+					<div class="product">
+						<p class="product__name">Капсула</p>
+						<p class="product__desc">Учебный тренажёр</p>
+					</div>
+				</div>
+				<nav class="header__menu menu js-dropdown-menu">
+					<ul class="menu__items">
+						<li class="menu__item">
+							<a href="#" class="menu__link is-active" data-goto=".page__section--1">Что внутри</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link" data-goto=".page__section--2">Как это работает</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link" data-goto=".page__section--3">Где найти</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link" data-goto=".page__section--4">Стоимость</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link" data-goto=".page__section--5">Отзывы</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link" data-goto=".page__section--6">Вопросы</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__control">
+					<a href="#" class="header__button button">Забронировать</a>
+					<div class="header__burger burger js-burger">
+						<span class="burger__line"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<main class="page">
+
+			<!--1 SCREEN-->
+			<section class="content">
+				<div class="content__background">
+					<img class="content__background-image" src="img/main_screen_bg.jpg" alt="Капсула для сна на пару часов">
+				</div>
+				<div class="container">
+					<div class="content-body">
+						<h1 class="content-body__main-title">Капсула для сна на пару часов</h1>
+						<p class="content-body__text">Восстановите силы в комфортном пространстве и станьте продуктивнее.</p>
+					</div>
+				</div>
+			</section>
+
+			<!--2 SCREEN-->
+			<section class="content">
+				<div class="container">
+					<div class="content-body content-body--default">
+						<h2 class="content-body__title">Капсула - место тишины и покоя </h2>
+						<div class="capsule-body">
+							<div class=" capsule-madel">
+								<img src="img/box.png" alt="Yandex capsule" class="capsule-madel__img">
+							</div>
+							<div class="capsule-text">
+								<p class="capsule-text__subtitle">Капсула будет полезна тем, кто:</p>
+								<ul class="capsule-text__items">
+									<li class="capsule-text__item">
+										плохо себя чувствует и работает менее эффективно из-за постоянного недосыпа;
+									</li>
+									<li class="capsule-text__item">
+										любит спать днём по 90 минут, но не может тратить время на поездку домой;
+									</li>
+									<li class="capsule-text__item">
+										хочет сосредоточиться на рабочих задачах и отдохнуть
+										от суеты опенспейсов.
+									</li>
+								</ul>
+								<a href="#" class="capsule-body__button button">Забронировать</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--3 SCREEN-->
+			<section class="content page__section--1">
+				<div class="container">
+					<div class="rounded-blank rounded-blank--bright">
+						<div class="rounded-blank__header">
+							<p class="rounded-blank__title">Внутри</p>
+							<p class="rounded-blank__description rounded-blank__description--thin">В наших капсулах есть всё
+								необходимое для комфортного отдыха.</p>
+						</div>
+						<ul class="facilities">
+							<li class="facilities__item">Ортопедический матрас</li>
+							<li class="facilities__item">Постельное бельё</li>
+							<li class="facilities__item">Подушка с эффектом памяти</li>
+							<li class="facilities__item">Тёплый плед</li>
+							<li class="facilities__item">Розетка для зарядки</li>
+							<li class="facilities__item">Wi-Fi</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!--4 SCREEN-->
+			<section class="content">
+				<div class="container">
+					<div class="info">
+						<div class="info__header">
+							<p class="info__header-text">И ещё...</p>
+						</div>
+						<div class="info__body">
+							<div class="info__body-row">
+								<p class="info__text info__text--colored">Капсула предназначена
+									не только для спокойного сна, но и для наслаждения тишиной.</p>
+								<p class="info__text info__text--colored">
+									В ней вы можете отвлечься от ежедневной суеты города, помедитировать, подготовиться к важной встрече
+									или
+									презентации.</p>
+							</div>
+							<div class="info__body-row">
+								<p class="info__text">В капсуле есть розетки для зарядки гаджетов, освещение, при котором можно читать,
+									сейф
+									для ценных вещей и камера хранения для крупных предметов.</p>
+								<p class="info__text">Кроме того, вы сможете аккуратно повесить одежду на вешалку и привести себя в
+									порядок у зеркала.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--5 SCREEN-->
+			<section class="content page__section--2">
+				<div class="container">
+					<div class="rounded-blank rounded-blank--dim">
+						<div class="rounded-blank__header">
+							<p class="rounded-blank__title rounded-blank__title--normal">Как это работает?</p>
+							<p class="rounded-blank__description">В наших капсулах есть всё необходимое для комфортного отдыха.</p>
+							<a href="#" class="rounded-blank__button button">Забронировать</a>
+						</div>
+						<ol class="order">
+							<li class="order__item">
+								<div class="order__wrapper">
+									<p class="order__title">Бронируете капсулу</p>
+									<p class="order__subtitle">Выбираете время, дату и адрес,
+										по которому вам удобнее всего будет прийти.</p>
+								</div>
+							</li>
+							<li class="order__item">
+								<div class="order__wrapper">
+									<p class="order__title">Приходите</p>
+									<p class="order__subtitle">По указанному адресу вас встречает администратор.</p>
+								</div>
+							</li>
+							<li class="order__item">
+								<div class="order__wrapper">
+									<p class="order__title">Администратор выдаёт ключ</p>
+									<p class="order__subtitle">А вы — оплачиваете аренду.</p>
+								</div>
+							</li>
+							<li class="order__item">
+								<div class="order__wrapper">
+									<p class="order__title">Наслаждаетесь отдыхом</p>
+									<p class="order__subtitle">И набираетесь сил.</p>
+								</div>
+							</li>
+							<li class="order__item">
+								<div class="order__wrapper">
+									<p class="order__title">Отдохнув, отдаёте ключ</p>
+									<p class="order__subtitle">И с новыми силами продолжаете заниматься делами!</p>
+								</div>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+
+			<!--6 SCREEN-->
+			<section class="content page__section--3">
+				<div class="map">
+					<div class="map__content">
+						<p class="map__title">17 капсул для сна в Москве</p>
+					</div>
+					<div id="map__body"></div>
+				</div>
+			</section>
+
+			<!--7 SCREEN-->
+			<section class="content page__section--4">
+				<div class="container">
+					<div class="rounded-blank rounded-blank--dark">
+						<div class="rounded-blank__header rounded-blank__header--dark">
+							<p class="rounded-blank__title rounded-blank__title--price">Стоимость</p>
+							<p class="rounded-blank__description rounded-blank__description--light">1 часа отдыха в капсуле:</p>
+						</div>
+						<div class="rounded-blank__wrapper">
+							<p class="value">400 ₽</p>
+							<div class="rounded-blank__footer">
+								<a href="#" class="rounded-blank__button  button">Забронировать</a>
+								<p class="rounded-blank__text">Общая стоимость зависит от того, сколько времени вы забронировали. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--8 SCREEN-->
+			<section class="content page__section--5">
+				<div class="container">
+					<p class="container__title">Что о нас говорят</p>
+					<div class="slider js-slider">
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_1.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Света Началова</p>
+									<div class="slide__review-info">
+										<p class="slide__date">20 января</p>
+										<p class="slide__place">ст. м. «Улица 1905 года»</p>
+									</div>
+									<p class="slide__text">Как же здорово я отдохнула! Спасибо «Капсуле»! У меня совсем не было сил, а
+										теперь я чувствую себя прекрасно и могу дальше работать. Ортопедический матрас — космос! Мои спина
+										и
+										шея в восторге ;)</p>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_2.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Николай Сергеев</p>
+									<div class="slide__review-info">
+										<p class="slide__date">17 января</p>
+										<p class="slide__place">ст. м. «Павелецкая»</p>
+									</div>
+									<p class="slide__text">Я доволен. Забронировал «Капсулу» за минуту — всё чётко и понятно. И место
+										удобное: близко к метро, минут пять пешком от «Арбатской». Рекомендую!</p>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_1.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Света Началова</p>
+									<div class="slide__review-info">
+										<p class="slide__date">20 января</p>
+										<p class="slide__place">ст. м. «Улица 1905 года»</p>
+									</div>
+									<p class="slide__text">Как же здорово я отдохнула! Спасибо «Капсуле»! У меня совсем не было сил, а
+										теперь я чувствую себя прекрасно и могу дальше работать. Ортопедический матрас — космос! Мои спина
+										и
+										шея в восторге ;)</p>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_2.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Николай Сергеев</p>
+									<div class="slide__review-info">
+										<p class="slide__date">17 января</p>
+										<p class="slide__place">ст. м. «Павелецкая»</p>
+									</div>
+									<p class="slide__text">Я доволен. Забронировал «Капсулу» за минуту — всё чётко и понятно. И место
+										удобное: близко к метро, минут пять пешком от «Арбатской». Рекомендую!</p>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_1.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Света Началова</p>
+									<div class="slide__review-info">
+										<p class="slide__date">20 января</p>
+										<p class="slide__place">ст. м. «Улица 1905 года»</p>
+									</div>
+									<p class="slide__text">Как же здорово я отдохнула! Спасибо «Капсуле»! У меня совсем не было сил, а
+										теперь я чувствую себя прекрасно и могу дальше работать. Ортопедический матрас — космос! Мои спина
+										и
+										шея в восторге ;)</p>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide__wrapper">
+								<div class="slide__img">
+									<img src="img/Photo_2.jpg" alt="user" class="slide__photo-author">
+								</div>
+								<div class="slide__body">
+									<p class="slide__author">Николай Сергеев</p>
+									<div class="slide__review-info">
+										<p class="slide__date">17 января</p>
+										<p class="slide__place">ст. м. «Павелецкая»</p>
+									</div>
+									<p class="slide__text">Я доволен. Забронировал «Капсулу» за минуту — всё чётко и понятно. И место
+										удобное: близко к метро, минут пять пешком от «Арбатской». Рекомендую!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--9 SCREEN-->
+			<section class="content page__section--6">
+				<div class="container">
+					<div class="container__wrapper">
+						<div class="container__inner">
+							<div class="rounded-blank rounded-blank--dim rounded-blank--wide">
+
+								<div class="rounded-blank__header">
+									<p class="rounded-blank__title rounded-blank__title--normal rounded-blank__title--wide">Важные вопросы
+									</p>
+								</div>
+								<ul class="accordion">
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Сколько стоит аренда? Как оплатить?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Каково максимальное и минимальное время бронирования?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Можно ли продлить аренду или уйти раньше?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Можно ли отменить бронь?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Есть ли скидки?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									</li>
+									<li class="accordion__item js-accordion">
+										<div class="accordion__header">
+											<p class="accordion__title">Как вы заботитесь о чистоте?</p>
+											<a href="#" class="accordion__open-btn open-btn"></a>
+										</div>
+										<div class="accordion__body js-accordion-body">
+											<p class="accordion__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+												totam
+												incidunt magnam qui quam corporis, perspiciatis exercitationem? Corporis, omnis hic.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="main-footer">
+			<div class="container">
+				<p class="main-footer__text">&copy; 2021, Яндекс.Практикум</p>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-zNeuZmzkvYAZkYR26nKHgydvVGUlC7k&callback=initMap&libraries=&v=weekly"
+		async></script>
+	<script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
